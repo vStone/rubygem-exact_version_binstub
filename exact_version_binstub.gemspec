@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Use an exact version in the binstub rubygems generates.}
   spec.description   = %q{Makes sure a generated bin will call the exact version of the gem for which it was generated. The default behaviour is to just require >= 0 which always matches the latest version available..}
   spec.homepage      = "https://github.com/vStone/exact_version_binstub"
-  spec.license       = "BEER"
+  spec.license       = "WTFPL"
 
   spec.files         = [ 'lib/exact_version_binstub.rb','lib/rubygems_plugin.rb' ]
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
