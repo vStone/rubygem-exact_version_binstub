@@ -6,7 +6,6 @@ class Gem::Installer
   # Return the text for an application file.
 
   def app_script_text(bin_file_name)
-    puts "OVERLOADED BITCH"
     return <<-TEXT
 #{shebang bin_file_name}
 #

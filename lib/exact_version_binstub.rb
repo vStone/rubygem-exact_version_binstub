@@ -1,1 +1,3 @@
-require 'exact_version_binstub/version'
+module ExactVersionBinstub
+  VERSION = "0.0.1"
+end
