@@ -13,7 +13,12 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/vStone/exact_version_binstub"
   spec.license       = "WTFPL"
 
-  spec.files         = [ 'lib/exact_version_binstub.rb','lib/rubygems_plugin.rb' ]
+  spec.files         = [
+    'LICENSE.txt',
+    'lib/exact_version_binstub.rb',
+    'lib/rubygems_plugin.rb',
+    'bin/exact_version_binstub-test',
+  ]
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]

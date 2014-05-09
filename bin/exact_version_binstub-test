@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require 'exact_version_binstub'
+
+# Empty bin.
+puts "exact version binstub v#{ExactVersionBinstub::VERSION}
+
+This gem does not do anything expect modify the behavior when running
+gem install with wrapper generation enabled."
